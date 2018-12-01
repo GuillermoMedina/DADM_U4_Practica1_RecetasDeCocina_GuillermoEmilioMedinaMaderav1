@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/identificador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ID" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nombre"/>
+
+    <EditText
+        android:id="@+id/ingredientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Ingrdientes" />
+
+    <EditText
+        android:id="@+id/preparacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Preparacion" />
+
+    <EditText
+        android:id="@+id/observaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Observaciones" />
+
+
+
+    <Button
+        android:id="@+id/insertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insertar" />
+
+    <Button
+        android:id="@+id/consultar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar" />
+
+    <Button
+        android:id="@+id/eliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar" />
+
+    <Button
+        android:id="@+id/actualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="Nota: Para actualizar o eliminar algun elemento de la lista primero se tiene que consultar" />
+
+
+</LinearLayout>
